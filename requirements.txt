@@ -1,0 +1,5 @@
+pytest
+pytest-bdd
+pybase64
+requests
+pandas

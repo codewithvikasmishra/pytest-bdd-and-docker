@@ -1,0 +1,1 @@
+pytest /app/tests/steps/step_defs/test_API1.py --junitxml=/app/tests/steps/reports/API1_test_report.xml
