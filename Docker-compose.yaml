@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+    TEST_AUTOMATION_DEEPAI:
+        build:
+            context: .
+            dockerfile: dockerfile
+        environment:
+            - APP_MODULE=app:app
+        image: test-automation-API:latest
+        container_name: test-automation-API
+        volumes:
+            -".:/app"
+        ports:
+            -"80:8081"
